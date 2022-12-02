@@ -1,0 +1,26 @@
+configuration {
+	icon-theme: "~/.icons/Fluent-purple-dark";
+	/* font: "Iosevka Nerd Font 9"; */
+	font: "FantasqueSansMono Nerd Font 10";
+	modi: "window,drun,run";
+	combi-modi: "drun, window";
+	show-icons: false;
+	terminal: "st";
+	run-shell-command: "{terminal} -e {cmd}";
+	/* drun-display-format: "{name}"; */
+	width: 50;
+	columns: 2;
+	lines: 10;
+	fixed-num-lines: false;
+	location: 2;
+	yoffset: 100;
+	sidebar-mode: false;
+	fullscreen: false;
+	display-drun: "גּ";
+	display-run: "";
+	display-window: "ﬓ";
+}
+
+//@theme "~/.config/rofi/themes/minimal.rasi"
+//@theme "/home/robinmohan/.config/rofi/themes/spotlight-dark.rasi"
+@theme "/home/robinmohan/.config/rofi/themes/nord.rasi"
